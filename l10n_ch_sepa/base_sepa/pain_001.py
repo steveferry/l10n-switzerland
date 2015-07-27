@@ -48,10 +48,10 @@ class Pain001(MsgSEPA):
         if tmpl_dirs is None:
             tmpl_dirs = []
 
-        dirs = [get_module_resource('l10n_ch_sepa',
-                self._BASE_TMPL_DIR)]
+        dirs = [addons.get_module_resource('l10n_ch_sepa',
+                                           self._BASE_TMPL_DIR)]
         for tmpl_dir in tmpl_dirs:
-            dirs += [get_module_resource('l10n_ch_sepa', tmpl_dir)]
+            dirs += [addons.get_module_resource('l10n_ch_sepa', tmpl_dir)]
 
         lookup = TemplateLookup(directories=dirs, input_encoding='utf-8',
                                 output_encoding='unicode',

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/OCA/l10n-switzerland.svg?branch=8.0)](https://travis-ci.org/OCA/l10n-switzerland)
 [![Coverage Status](https://coveralls.io/repos/OCA/l10n-switzerland/badge.svg?branch=8.0)](https://coveralls.io/r/OCA/l10n-switzerland?branch=7.0)
+=======
+[![Build Status](https://travis-ci.org/OCA/l10n-switzerland.svg?branch=7.0)](https://travis-ci.org/OCA/l10n-switzerland)
+[![Coverage Status](https://coveralls.io/repos/OCA/l10n-switzerland/badge.svg?branch=7.0)](https://coveralls.io/r/OCA/l10n-switzerland?branch=7.0)
+>>>>>>> oca/7.0
 
 
 Odoo/OpenERP Swiss Localization
@@ -43,6 +48,12 @@ l10n_ch_dta
 
 Provides support of DTA payment file protocol to generate electronic payment file.
 This feature will be depreacted around the end of 2014.
+
+
+l10n_ch_lsv_dd
+--------------
+
+Provides support of LSV and Postfinance Direct Debit protocol to generate eletronic debit files.
 
 
 l10n_ch_sepa

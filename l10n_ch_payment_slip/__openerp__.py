@@ -53,7 +53,11 @@ payment terms.
 
 
 """,
+<<<<<<< HEAD
  'version': '2.1',
+=======
+ 'version': '1.2',
+>>>>>>> oca/7.0
  'author': "Camptocamp,Odoo Community Association (OCA)",
  'category': 'Localization',
  'website': 'http://www.camptocamp.com',

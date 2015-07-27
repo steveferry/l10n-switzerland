@@ -28,6 +28,7 @@ class ResPartnerBank(models.Model):
      - BVR print options for company accounts
      We leave it here in order
     """
+
     _inherit = "res.partner.bank"
 
     print_bank = fields.Boolean('Print Bank on BVR')

@@ -19,21 +19,23 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{
-    'name': 'Switzerland - Postal codes (ZIP) list',
-    'version': '1.1.0',
-    'author': "Camptocamp,brain-tec AG,Odoo Community Association (OCA)",
-    'category': 'Localisation',
-    'website': 'http://www.camptocamp.com',
-    'license': 'AGPL-3',
-    'summary': 'Provides all Swiss postal codes for auto-completion',
-    'depends': ['base',
-                'base_location',  # in https://github.com/OCA/partner-contact/
-                ],
-    'data': ['l10n_ch_better_zip.xml'],
-    'images': [],
-    'demo': [],
-    'auto_install': False,
-    'installable': True,
-    'application': True,
-}
+{'name': 'Switzerland - Postal codes (ZIP) list',
+ 'summary': 'Provides all Swiss postal codes for auto-completion',
+ 'version': '1.0.1',
+ 'depends': ['base', 'base_location'],
+ 'author': "Camptocamp,Odoo Community Association (OCA)",
+ 'description': """
+Swiss postal code (ZIP) list
+============================
+
+This module will load all Swiss postal codes (ZIP) in Odoo to
+ease the input of partners.
+
+It is not mandatory to use Odoo in Switzerland,
+but can improve the user experience.
+""",
+ 'website': 'http://www.camptocamp.com',
+ 'data': ['l10n_ch_better_zip.xml'],
+ 'demo_xml': [],
+ 'installable': True,
+ 'active': False}

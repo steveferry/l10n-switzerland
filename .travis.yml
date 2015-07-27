@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+sudo: false
+cache: pip
+
+addons:
+  apt:
+    packages:
+      - expect-dev  # provides unbuffer utility
+      - python-lxml # because pip installation is slow
+      - python-xlrd
+
+>>>>>>> oca/7.0
 language: python
 
 python:
@@ -25,11 +38,22 @@ virtualenv:
   system_site_packages: true
 
 install:
+<<<<<<< HEAD
   - pip install -q unidecode
   - pip install unicodecsv
   - git clone --depth=1 https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - travis_install_nightly
+=======
+  - git clone https://github.com/OCA/partner-contact-management ${HOME}/partner-contact-management -b ${VERSION}
+  - git clone https://github.com/OCA/bank-statement-reconcile ${HOME}/bank-statement-reconcile -b ${VERSION}
+  - git clone https://github.com/OCA/account-financial-tools ${HOME}/account-financial-tools -b ${VERSION}
+  - git clone https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
+  - git clone https://github.com/OCA/banking.git ${HOME}/banking -b ${VERSION}
+  - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
+  - travis_install_nightly ${VERSION}
+  - pip install unidecode
+>>>>>>> oca/7.0
 
 script:
   - travis_run_tests
