@@ -42,7 +42,6 @@ EXTRA_LATIN_NAMES = {
     u"\N{LATIN SMALL LETTER E WITH BREVE}": u"e",
     u"\N{LATIN SMALL LETTER E WITH CIRCUMFLEX}": u"e",
     u"\N{LATIN SMALL LETTER E WITH DIAERESIS}": u"e",
-<<<<<<< HEAD
     u"\N{LATIN SMALL LETTER I WITH GRAVE}": u"i",
     u"\N{LATIN SMALL LETTER I WITH ACUTE}": u"i",
     u"\N{LATIN SMALL LETTER I WITH CIRCUMFLEX}": u"i",
@@ -63,9 +62,6 @@ EXTRA_LATIN_NAMES = {
     u"\N{LATIN SMALL LETTER A WITH BREVE}": u"a",
     u"\N{LATIN SMALL LETTER C WITH ACUTE}": u"c",
     u"\N{LATIN SMALL LETTER C WITH CIRCUMFLEX}": u"c",
-=======
-    u"\N{LATIN SMALL LETTER E WITH GRAVE}": u"e",
->>>>>>> oca/7.0
     u"\N{LATIN SMALL LETTER E WITH MACRON}": u"e",
     u"\N{LATIN SMALL LETTER G WITH BREVE}": u"g",
     u"\N{LATIN SMALL LETTER G WITH CEDILLA}": u"g",
@@ -121,7 +117,6 @@ EXTRA_LATIN_NAMES = {
     u"\N{LATIN CAPITAL LETTER A WITH DIAERESIS}": u"Ae",
     u"\N{LATIN CAPITAL LETTER O WITH DIAERESIS}": u"Oe",
     u"\N{LATIN CAPITAL LETTER U WITH DIAERESIS}": u"Ue",
-<<<<<<< HEAD
     u'\N{LATIN CAPITAL LETTER THORN}': u'TH',
     u'\N{LATIN SMALL LETTER SHARP S}': u'ss',
     u'\N{LATIN SMALL LETTER AE}': u'ae',
@@ -144,50 +139,23 @@ EXTRA_LATIN_NAMES = {
     u'\N{LATIN CAPITAL LETTER B WITH TOPBAR}': u'B',
     u'\N{LATIN SMALL LETTER B WITH TOPBAR}': u'b',
     u'\N{LATIN CAPITAL LETTER OPEN O}': u'O',
-=======
-    u'\N{LATIN CAPITAL LETTER A WITH STROKE}': u'A',
-    u'\N{LATIN CAPITAL LETTER AE WITH ACUTE}': u'AE',
-    u'\N{LATIN CAPITAL LETTER AE WITH MACRON}': u'AE',
-    u'\N{LATIN CAPITAL LETTER AE}': u'AE',
-    u'\N{LATIN CAPITAL LETTER AFRICAN D}': u'D',
-    u'\N{LATIN CAPITAL LETTER B WITH HOOK}': u'B',
-    u'\N{LATIN CAPITAL LETTER B WITH TOPBAR}': u'B',
->>>>>>> oca/7.0
     u'\N{LATIN CAPITAL LETTER C WITH HOOK}': u'C',
     u'\N{LATIN CAPITAL LETTER C WITH STROKE}': u'C',
     u'\N{LATIN CAPITAL LETTER D WITH HOOK}': u'D',
     u'\N{LATIN CAPITAL LETTER D WITH STROKE}': u'D',
     u'\N{LATIN CAPITAL LETTER D WITH TOPBAR}': u'D',
-<<<<<<< HEAD
     u'\N{LATIN SMALL LETTER D WITH TOPBAR}': u'd',
     u'\N{LATIN CAPITAL LETTER REVERSED E}': u'E',
     u'\N{LATIN CAPITAL LETTER OPEN E}': u'E',
-=======
-    u'\N{LATIN CAPITAL LETTER ENG}': u'N',
-    u'\N{LATIN CAPITAL LETTER ESH}': u'SH',
-    u'\N{LATIN CAPITAL LETTER ETH}': u'D',
-    u'\N{LATIN CAPITAL LETTER EZH WITH CARON}': u'S',
-    u'\N{LATIN CAPITAL LETTER EZH}': u'S',
->>>>>>> oca/7.0
     u'\N{LATIN CAPITAL LETTER F WITH HOOK}': u'F',
     u'\N{LATIN CAPITAL LETTER G WITH HOOK}': u'G',
-<<<<<<< HEAD
     u'\N{LATIN SMALL LETTER HV}': u'hv',
     u'\N{LATIN CAPITAL LETTER IOTA}': u'i',
-=======
-    u'\N{LATIN CAPITAL LETTER G WITH STROKE}': u'G',
-    u'\N{LATIN CAPITAL LETTER H WITH STROKE}': u'H',
-    u'\N{LATIN CAPITAL LETTER HWAIR}': u'HW',
->>>>>>> oca/7.0
     u'\N{LATIN CAPITAL LETTER I WITH STROKE}': u'I',
     u'\N{LATIN CAPITAL LETTER IOTA}': u'i',
     u'\N{LATIN CAPITAL LETTER K WITH HOOK}': u'K',
-<<<<<<< HEAD
     u'\N{LATIN SMALL LETTER K WITH HOOK}': u'k',
     u'\N{LATIN SMALL LETTER L WITH BAR}': u'l',
-=======
-    u'\N{LATIN CAPITAL LETTER L WITH BAR}': u'L',
->>>>>>> oca/7.0
     u'\N{LATIN CAPITAL LETTER N WITH LEFT HOOK}': u'N',
     u'\N{LATIN CAPITAL LETTER N WITH LONG RIGHT LEG}': u'N',
     u'\N{LATIN CAPITAL LETTER O WITH MIDDLE TILDE}': u'O',
@@ -197,17 +165,11 @@ EXTRA_LATIN_NAMES = {
     u'\N{LATIN CAPITAL LETTER OPEN O}': u'O',
     u'\N{LATIN CAPITAL LETTER OU}': u'OU',
     u'\N{LATIN CAPITAL LETTER P WITH HOOK}': u'P',
-<<<<<<< HEAD
     u'\N{LATIN SMALL LETTER P WITH HOOK}': u'p',
     u'\N{LATIN CAPITAL LETTER ESH}': u'SH',
     u'\N{LATIN SMALL LETTER T WITH PALATAL HOOK}': u't',
-=======
-    u'\N{LATIN CAPITAL LETTER REVERSED E}': u'E',
-    u'\N{LATIN CAPITAL LETTER T WITH DIAGONAL STROKE}': u'T',
->>>>>>> oca/7.0
     u'\N{LATIN CAPITAL LETTER T WITH HOOK}': u'T',
     u'\N{LATIN CAPITAL LETTER T WITH RETROFLEX HOOK}': u'T',
-<<<<<<< HEAD
     u'\N{LATIN CAPITAL LETTER V WITH HOOK}': u'V',
     u'\N{LATIN CAPITAL LETTER Y WITH HOOK}': u'Y',
     u'\N{LATIN SMALL LETTER Y WITH HOOK}': u'y',
@@ -227,16 +189,8 @@ EXTRA_LATIN_NAMES = {
     u'\N{LATIN CAPITAL LETTER AE WITH ACUTE}': u'AE',
     u'\N{LATIN SMALL LETTER AE WITH ACUTE}': u'AE',
     u'\N{LATIN SMALL LETTER O WITH STROKE AND ACUTE}': u'o',
-=======
-    u'\N{LATIN CAPITAL LETTER T WITH STROKE}': u'T',
-    u'\N{LATIN CAPITAL LETTER THORN}': u'TH',
-    u'\N{LATIN CAPITAL LETTER V WITH HOOK}': u'V',
-    u'\N{LATIN CAPITAL LETTER WYNN}': u'W',
-    u'\N{LATIN CAPITAL LETTER Y WITH HOOK}': u'Y',
->>>>>>> oca/7.0
     u'\N{LATIN CAPITAL LETTER YOGH}': u'J',
     u'\N{LATIN CAPITAL LETTER Z WITH HOOK}': u'Z',
-<<<<<<< HEAD
     u'\N{LATIN SMALL LETTER Z WITH HOOK}': u'z',
     u'\N{LATIN SMALL LETTER L WITH CURL}': u'l',
     u'\N{LATIN SMALL LETTER N WITH CURL}': u'n',
@@ -300,12 +254,6 @@ EXTRA_LATIN_NAMES = {
     u'\N{LATIN SMALL LETTER Q WITH HOOK}': u'q',
     u'\N{LATIN LETTER SMALL CAPITAL A}': u'A',
     u'\N{LATIN LETTER SMALL CAPITAL AE}': u'AE',
-=======
-    u'\N{LATIN CAPITAL LETTER Z WITH STROKE}': u'Z',
-    u'\N{LATIN CAPITAL LIGATURE OE}': u'OE',
-    u'\N{LATIN LETTER SMALL CAPITAL AE}': u'AE',
-    u'\N{LATIN LETTER SMALL CAPITAL A}': u'A',
->>>>>>> oca/7.0
     u'\N{LATIN LETTER SMALL CAPITAL BARRED B}': u'B',
     u'\N{LATIN LETTER SMALL CAPITAL B}': u'B',
     u'\N{LATIN LETTER SMALL CAPITAL C}': u'C',
@@ -313,13 +261,6 @@ EXTRA_LATIN_NAMES = {
     u'\N{LATIN LETTER SMALL CAPITAL ETH}': u'D',
     u'\N{LATIN LETTER SMALL CAPITAL EZH}': u'S',
     u'\N{LATIN LETTER SMALL CAPITAL E}': u'E',
-<<<<<<< HEAD
-=======
-    u'\N{LATIN LETTER SMALL CAPITAL G WITH HOOK}': u'G',
-    u'\N{LATIN LETTER SMALL CAPITAL G}': u'G',
-    u'\N{LATIN LETTER SMALL CAPITAL H}': u'H',
-    u'\N{LATIN LETTER SMALL CAPITAL I}': u'I',
->>>>>>> oca/7.0
     u'\N{LATIN LETTER SMALL CAPITAL J}': u'J',
     u'\N{LATIN LETTER SMALL CAPITAL K}': u'K',
     u'\N{LATIN LETTER SMALL CAPITAL L WITH STROKE}': u'L',
@@ -770,13 +711,8 @@ if __name__ == '__main__':
         default=8192,
         help='read/write in chunks of a given size (8192)'
     )
-<<<<<<< HEAD
     optz, arguments = parser.parse_args()
     if arguments:
-=======
-    optz, argzz = parser.parse_args()
-    if argzz:
->>>>>>> oca/7.0
         parser.error('Only stdin -> stdout conversion suported')
 
     uc_filter(sys.stdin, sys.stdout, bs=optz.bs,

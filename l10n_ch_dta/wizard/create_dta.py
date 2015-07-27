@@ -24,10 +24,6 @@ import time
 from datetime import datetime
 import re
 import base64
-<<<<<<< HEAD
-=======
-from . import unicode2ascii
->>>>>>> oca/7.0
 
 from openerp.exceptions import except_orm
 from openerp import models, fields, api, _
@@ -642,7 +638,6 @@ class DTAFileGenerator(models.TransientModel):
                 _('No bank account defined\n on line: %s') % pline.name
             )
         if not pline.bank_id.bank:
-<<<<<<< HEAD
                 raise except_orm(
                     _('Error'),
                     _('No bank defined for the bank account: %s\n'
@@ -651,16 +646,6 @@ class DTAFileGenerator(models.TransientModel):
                      pline.partner_id.name,
                      pline.name)
                 )
-=======
-            raise orm.except_orm(
-                _('Error'),
-                _('No bank defined for the bank account: %s\n'
-                  'on the partner: %s\n on line: %s') %
-                (pline.bank_id.state,
-                 pline.partner_id.name,
-                 pline.name)
-            )
->>>>>>> oca/7.0
         elec_context['sequence'] = str(seq).rjust(5).replace(' ', '0')
         am_to_pay = str(pline.amount_currency).replace('.', ',')
         elec_context['amount_to_pay'] = am_to_pay

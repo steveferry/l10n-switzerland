@@ -35,11 +35,6 @@ class AccountMoveLine(models.Model):
 class AccountInvoice(models.Model):
     """Inherit account.invoice in order to add bvr
     printing functionnalites. BVR is a Swiss payment vector"""
-<<<<<<< HEAD
-=======
-
-    _inherit = "account.invoice"
->>>>>>> oca/7.0
 
     _inherit = "account.invoice"
 
@@ -154,23 +149,3 @@ class AccountInvoice(models.Model):
                 self._action_bvr_number_move_line(pay_slip.move_line_id,
                                                   ref)
         return res
-<<<<<<< HEAD
-=======
-
-    def copy(self, cr, uid, inv_id, default=None, context=None):
-        default = default or {}
-        default.update({'reference': False})
-        return super(AccountInvoice, self).copy(cr, uid, inv_id, default,
-                                                context)
-
-
-class AccountTaxCode(Model):
-    """Inherit account tax code in order
-    to add a Case code"""
-
-    _name = 'account.tax.code'
-    _inherit = "account.tax.code"
-    _columns = {
-        'code': fields.char('Case Code', size=512),
-    }
->>>>>>> oca/7.0

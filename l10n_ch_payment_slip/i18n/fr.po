@@ -87,7 +87,6 @@ msgid "Bank Accounts"
 msgstr "Comptes bancaires"
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: view:v11.import.wizard:l10n_ch_payment_slip.v11_import_view
 msgid "Cancel"
 msgstr "Annuler"
@@ -108,12 +107,6 @@ msgstr "Créé par"
 #: field:v11.import.wizard,create_date:0
 msgid "Created on"
 msgstr "Créé le"
-=======
-#: report:addons/l10n_ch_payment_slip/report/bvr.mako:198
-#: report:addons/l10n_ch_payment_slip/report/multi_bvr.mako:199
-msgid "Payment slip for:"
-msgstr "Bulletin de versement pour :"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: help:res.company,bvr_add_horz:0

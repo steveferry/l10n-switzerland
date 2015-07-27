@@ -1,10 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-<<<<<<< HEAD
 #	* l10n_ch_payment_slip
-=======
-#       * l10n_ch_payment_slip
->>>>>>> oca/7.0
 #
 msgid ""
 msgstr ""
@@ -45,15 +41,9 @@ msgid "BVR horiz. position for scan line(inch)"
 msgstr ""
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: view:res.partner.bank:l10n_ch_payment_slip.l10nch_view_res_partner_bank_from_invoice_slip
 msgid "BVR options"
 msgstr ""
-=======
-#: model:ir.actions.report.xml,name:l10n_ch_payment_slip.report_bvr_html
-msgid "BVR/ESR"
-msgstr "ESR"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:account.invoice,bvr_reference:0
@@ -61,7 +51,6 @@ msgid "BVR ref"
 msgstr ""
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: field:res.company,bvr_scan_line_font_size:0
 msgid "BVR scan line font size (pt)"
 msgstr ""
@@ -70,18 +59,6 @@ msgstr ""
 #: field:res.company,bvr_scan_line_letter_spacing:0
 msgid "BVR scan line letter spacing"
 msgstr ""
-=======
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_background
-#: field:res.company,bvr_background:0
-msgid "Insert BVR background ?"
-msgstr "ESR Hintergrund einfügen?"
-
-#. module: l10n_ch_payment_slip
-#: field:bvr.import.wizard,file:0
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_bvr_import_wizard_file
-msgid "BVR File"
-msgstr "ESR Datei"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:res.company,bvr_add_vert:0
@@ -89,7 +66,6 @@ msgid "BVR vert. position for address (inch)"
 msgstr ""
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: field:res.company,bvr_scan_line_vert:0
 msgid "BVR vert. position for scan line (inch)"
 msgstr ""
@@ -103,24 +79,6 @@ msgstr ""
 #: sql_constraint:l10n_ch.payment_slip:0
 msgid "BVR/ESR reference must be unique"
 msgstr ""
-=======
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_add_vert
-#: field:res.company,bvr_add_vert:0
-msgid "BVR vert. position for address (mm)"
-msgstr "ESR vertikale Position der Adresse in mm"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_partner_bank_print_bank
-#: field:res.partner.bank,print_bank:0
-msgid "Print Bank on BVR"
-msgstr "Bank Daten auf den ESR drucken"
-
-#. module: l10n_ch_payment_slip
-#: field:account.move.line,transaction_ref:0
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_account_move_line_transaction_ref
-msgid "Transaction Ref."
-msgstr "Transaktions-Referenz"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: model:ir.model,name:l10n_ch_payment_slip.model_res_partner_bank
@@ -128,16 +86,9 @@ msgid "Bank Accounts"
 msgstr ""
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: view:v11.import.wizard:l10n_ch_payment_slip.v11_import_view
 msgid "Cancel"
 msgstr ""
-=======
-#: report:addons/l10n_ch_payment_slip/report/bvr.mako:198
-#: report:addons/l10n_ch_payment_slip/report/multi_bvr.mako:199
-msgid "Payment slip for:"
-msgstr "Bezahlschein für:"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: model:ir.model,name:l10n_ch_payment_slip.model_res_company
@@ -191,7 +142,6 @@ msgstr ""
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:212
 #, python-format
-<<<<<<< HEAD
 msgid "Inv. no %s"
 msgstr ""
 
@@ -199,16 +149,6 @@ msgstr ""
 #: model:ir.model,name:l10n_ch_payment_slip.model_account_invoice
 msgid "Invoice"
 msgstr ""
-=======
-msgid "Your invoice should be validated to generate a BVR reference."
-msgstr "Die Rechnung muss bestätigt sein um eine ESR-Referenz erzeugen zu können."
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_scan_line_horz
-#: field:res.company,bvr_scan_line_horz:0
-msgid "BVR horiz. position for scan line(mm)"
-msgstr "ESR horizontale Position für die Kodierungszeile in mm"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: model:ir.model,name:l10n_ch_payment_slip.model_account_move_line
@@ -216,24 +156,16 @@ msgid "Journal Items"
 msgstr "Journal-Einträge"
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: field:l10n_ch.payment_slip,write_uid:0
 #: field:v11.import.wizard,write_uid:0
 msgid "Last Updated by"
 msgstr ""
-=======
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_partner_bank_print_account
-#: field:res.partner.bank,print_account:0
-msgid "Print Account Number on BVR"
-msgstr "Kontonummer auf den ESR drucken"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:l10n_ch.payment_slip,write_date:0
 #: field:v11.import.wizard,write_date:0
 msgid "Last Updated on"
 msgstr ""
-<<<<<<< HEAD
 
 #. module: l10n_ch_payment_slip
 #: selection:res.company,merge_mode:0
@@ -244,39 +176,18 @@ msgstr ""
 #: selection:res.company,merge_mode:0
 msgid "Merge Slips on Disk, slower but safer"
 msgstr ""
-=======
-"Horizontale Korrektur in mm. Durch Eingabe von 1.2 wird der ESR 1.2mm"
-"weiter links gedruckt. Negative Werte rücken ihn nach rechts"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.actions.report.xml,name:l10n_ch_payment_slip.report_bvr_html_multi
-msgid "BVR/ESR multiple"
-msgstr "Mehrere ESR"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_scan_line_letter_spacing
-#: field:res.company,bvr_scan_line_letter_spacing:0
-msgid "BVR scan line letter spacing"
-msgstr "ESR Zeichenabstand bei der Kodierungszeile"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/payment_slip.py:328
 #, python-format
-<<<<<<< HEAD
 msgid "No invoice related to move line %s"
 msgstr ""
-=======
-msgid "UserError"
-msgstr "Benutzerfehler"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:165
 #, python-format
 msgid "Number of records differ from the computed one"
 msgstr ""
-<<<<<<< HEAD
 
 #. module: l10n_ch_payment_slip
 #: view:account.invoice:l10n_ch_payment_slip.invoice_form_add_bvr_ref
@@ -290,21 +201,6 @@ msgstr ""
 #: view:l10n_ch.payment_slip:l10n_ch_payment_slip.pay_slip_lsit
 msgid "Payment Slip"
 msgstr ""
-=======
-"Horizontale Korrektur in mm. Durch Eingabe von 1.2 wird der ESR 1.2mm"
-"weiter unten gedruckt. Negative Werte rücken ihn nach oben"
-
-#. module: l10n_ch_payment_slip
-#: help:res.company,bvr_scan_line_horz:0
-msgid "Horiz. position in mm for scan line"
-msgstr "Horizontale Position der Kodierungszeile in mm"
-
-#. module: l10n_ch_payment_slip
-#: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:251
-#, python-format
-msgid "Inv. no "
-msgstr "Rechnungsnummer"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:res.company,merge_mode:0
@@ -314,7 +210,6 @@ msgstr ""
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/payment_slip.py:216
 #, python-format
-<<<<<<< HEAD
 msgid "Please enter a correct postal number like: 01-23456-1"
 msgstr ""
 
@@ -333,27 +228,6 @@ msgstr ""
 #: field:res.partner.bank,print_bank:0
 msgid "Print Bank on BVR"
 msgstr ""
-=======
-msgid "Too much total record found!"
-msgstr "Zu hoher Gesamtbetrag"
-
-#. module: l10n_ch_payment_slip
-#: view:res.partner.bank:0
-msgid "BVR options"
-msgstr "ESR Einstellungen"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_scan_line_font_size
-#: field:res.company,bvr_scan_line_font_size:0
-msgid "BVR scan line font size (pt)"
-msgstr "ESR Schriftgrösse der Kodierungszeile in pt"
-
-#. module: l10n_ch_payment_slip
-#: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:97
-#, python-format
-msgid "Total record different from the computed!"
-msgstr "Gesamtbetrag weicht vom errechneten ab!"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:res.partner.bank,print_partner:0
@@ -363,18 +237,12 @@ msgstr ""
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:161
 #, python-format
-<<<<<<< HEAD
 msgid "Record found after total record"
 msgstr ""
-=======
-msgid "Record found after total record!"
-msgstr "Eintrag nach dem Gesamtbetrag gefunden!"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:130
 #, python-format
-<<<<<<< HEAD
 msgid "Recursive mod10 is invalid for reference: %s"
 msgstr ""
 
@@ -397,33 +265,6 @@ msgstr ""
 #: model:ir.model,name:l10n_ch_payment_slip.model_report
 msgid "Report"
 msgstr ""
-=======
-msgid "Error"
-msgstr "Fehler"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_delta_horz
-#: field:res.company,bvr_delta_horz:0
-msgid "BVR Horz. Delta (mm)"
-msgstr "ESR horizontale Korrektur in mm"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_delta_vert
-#: field:res.company,bvr_delta_vert:0
-msgid "BVR Vert. Delta (mm)"
-msgstr "ESR vertikale Korrektur in mm"
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_scan_line_vert
-#: field:res.company,bvr_scan_line_vert:0
-msgid "BVR vert. position for scan line (mm)"
-msgstr "ESR vertikale Position der Kodierungszeile in mm"
-
-#. module: l10n_ch_payment_slip
-#: help:res.company,bvr_scan_line_vert:0
-msgid "Vert. position in mm for scan line"
-msgstr "Vertkale Position der Kodierungszeile in mm"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:156
@@ -434,7 +275,6 @@ msgstr ""
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:71
 #, python-format
-<<<<<<< HEAD
 msgid "Total amount differ from the computed amount"
 msgstr ""
 
@@ -442,16 +282,6 @@ msgstr ""
 #: field:l10n_ch.payment_slip,amount_total:0
 msgid "Total amount of BVR/ESR"
 msgstr ""
-=======
-msgid "Please select a file first!"
-msgstr "Bitte eine Datei auswählen!"
-
-#. module: l10n_ch_payment_slip
-#: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:181
-#, python-format
-msgid "The properties account payable account receivable are not set"
-msgstr "Die Einstellungen Verbindlichkeiten-Konto und Forderungen-Konto sind nicht gesetzt"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:v11.import.wizard,total_amount:0
@@ -461,7 +291,6 @@ msgstr ""
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:103
 #, python-format
-<<<<<<< HEAD
 msgid "Total cost differ from the computed amount"
 msgstr ""
 
@@ -469,16 +298,6 @@ msgstr ""
 #: field:v11.import.wizard,total_cost:0
 msgid "Total cost of V11"
 msgstr ""
-=======
-msgid "Your invoice should be validated to generate BVR references."
-msgstr "Die Rechnung muss bestätigt sein um eine ESR-Referenz erzeugen zu können."
-
-#. module: l10n_ch_payment_slip
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_company_bvr_add_horz
-#: field:res.company,bvr_add_horz:0
-msgid "BVR horiz. position address (mm)"
-msgstr "ESR horizontale Position der Adresse in mm"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: field:account.move.line,transaction_ref:0
@@ -486,7 +305,6 @@ msgid "Transaction Ref."
 msgstr ""
 
 #. module: l10n_ch_payment_slip
-<<<<<<< HEAD
 #: model:ir.actions.act_window,name:l10n_ch_payment_slip.wizard_v11_import
 msgid "V11 (BVR/ESR) Import"
 msgstr ""
@@ -500,23 +318,6 @@ msgstr ""
 #: field:v11.import.wizard,v11file:0
 msgid "V11 File"
 msgstr ""
-=======
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_res_partner_bank_print_partner
-#: field:res.partner.bank,print_partner:0
-msgid "Print Partner Address on BVR"
-msgstr "Kunden-Adresse auf ESR drucken"
-
-#. module: l10n_ch_payment_slip
-#: field:account.invoice,bvr_reference:0
-#: model:ir.model.fields,field_description:l10n_ch_payment_slip.field_account_invoice_bvr_reference
-msgid "BVR REF."
-msgstr "ESR Referenz"
-
-#. module: l10n_ch_payment_slip
-#: view:res.company:0
-msgid "BVR Data"
-msgstr "ESR Daten"
->>>>>>> oca/7.0
 
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/wizard/bvr_import.py:237
@@ -551,13 +352,8 @@ msgstr ""
 #: help:res.company,bvr_delta_vert:0
 msgid "vert. delta in inch 1.2 will print the bvr 1.2 inch lower, negative value is possible"
 msgstr ""
-<<<<<<< HEAD
 
 #. module: l10n_ch_payment_slip
 #: code:addons/l10n_ch_payment_slip/payment_slip.py:469
 msgid "Payment slip related to invoice %s due on the %s"
 msgstr ""
-=======
-"Keine Bank für folgende Rechnung angegeben:\n"
-"%s"
->>>>>>> oca/7.0
